@@ -11,18 +11,18 @@ Proyek Simulasi Menggunakan NS-3
 * Kemudian extract file download anda.
 * Untuk melakukan simulasi TCP-NewReno lakukan beberapa langkah berikut :
   * Buka folder TCPNewReno
-  * Copy file fifth.cc ke directory tutorial pada NS-3 anda ex : /ns-allinone-3.21/ns-3.21/examples/tutorial
-  * Copy file tcp-l4-protocol.cc ke directory model pada NS-3 anda ex : /ns-allinone-3.21/ns-3.21/src/internet/model
-  * Kemudian buka directory berikut /ns-allinone-3.21/ns-3.21 pada NS-3 anda.
+  * Copy file **fifth.cc** ke directory tutorial pada NS-3 anda ex : **/ns-allinone-3.21/ns-3.21/examples/tutorial**
+  * Copy file **tcp-l4-protocol.cc** ke directory model pada NS-3 anda ex : **/ns-allinone-3.21/ns-3.21/src/internet/model**
+  * Kemudian buka directory berikut **/ns-allinone-3.21/ns-3.21** pada NS-3 anda.
   * Kemudian lakukan kompilasi dan export data dengan perintah
-    > ./waf --run fifth.cc > newreno4.dat 2>&1
+    > **./waf --run fifth.cc > newreno4.dat 2>&1**
   * Kemudian plot data dengan file yang telah di eksport tersebut.
  
 * Untuk melakukan simulasi TCP-Tahoe lakukan beberapa langkah berikut :
   * Buka folder TCPTahoe
-  * Copy file fifth.cc ke directory tutorial pada NS-3 anda ex : /ns-allinone-3.21/ns-3.21/examples/tutorial
-  * Copy file tcp-l4-protocol.cc ke directory model pada NS-3 anda ex : /ns-allinone-3.21/ns-3.21/src/internet/model
-  * Kemudian buka directory berikut /ns-allinone-3.21/ns-3.21 pada NS-3 anda.
+  * Copy file **fifth.cc** ke directory tutorial pada NS-3 anda ex : **/ns-allinone-3.21/ns-3.21/examples/tutorial**
+  * Copy file **tcp-l4-protocol.cc** ke directory model pada NS-3 anda ex : **/ns-allinone-3.21/ns-3.21/src/internet/model**
+  * Kemudian buka directory berikut **/ns-allinone-3.21/ns-3.21** pada NS-3 anda.
   * Kemudian lakukan kompilasi dan export data dengan perintah
-    > ./waf --run fifth.cc > tahoe4.dat 2>&1
+    > **./waf --run fifth.cc > tahoe4.dat 2>&1**
   * Kemudian plot data dengan file yang telah di eksport tersebut.
